@@ -1,0 +1,176 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import clsx from 'clsx';
+import { withStyles } from '@material-ui/core/styles';
+import Divider from '@material-ui/core/Divider';
+import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+import HomeIcon from '@material-ui/icons/Home';
+import AssignmentTurnedInIcon from '@material-ui/icons/AssignmentTurnedIn';
+import AssignmentLateIcon from '@material-ui/icons/AssignmentLate';
+import StorageIcon from '@material-ui/icons/Storage';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
+import {NavLink} from "react-router-dom";
+import Collapse from "@material-ui/core/Collapse";
+import {ExpandLess, ExpandMore} from "@material-ui/icons";
+const categories = [
+    {
+        id: 'Меню',
+        children: [
+            { id: 'Заявления', icon: <HomeIcon/>, active: false ,path:"applications",childCategories:[]},
+            { id: 'Заключения', icon: <AssignmentTurnedInIcon /> ,active: false ,path:"opinions",childCategories:[]},
+            { id: 'Задания', icon: <AssignmentLateIcon />,active: false ,path:"tasks",childCategories:[] },
+            { id: 'Справочники', icon: <StorageIcon />,active: false,path:"directories",childCategories:[{id:'Заявители', active: false ,path:"directory/applicants"}] },
+            { id: 'Профиль', icon: <AccountBoxIcon/>,active: false ,path:"profile",childCategories:[] },
+        ],
+    },
+];
+const styles = theme => ({
+    categoryHeader: {
+        paddingTop: theme.spacing(2),
+        paddingBottom: theme.spacing(2),
+    },
+    categoryHeaderPrimary: {
+        color: theme.palette.common.white,
+    },
+    item: {
+        paddingTop: 1,
+        paddingBottom: 1,
+        color: 'rgba(255, 255, 255, 0.7)',
+        '&:hover,&:focus': {
+            backgroundColor: 'rgba(255, 255, 255, 0.08)',
+            color: '#63ccff',
+        },
+    },
+    itemCategory: {
+        backgroundColor: '#232f3e',
+        boxShadow: '0 -1px 0 #404854 inset',
+        paddingTop: theme.spacing(2),
+        paddingBottom: theme.spacing(2),
+    },
+    firebase: {
+        fontSize: 24,
+        color: theme.palette.common.white,
+    },
+    itemActiveItem: {
+        color: '#4fc3f7',
+    },
+    itemPrimary: {
+        fontSize: 'inherit',
+    },
+    itemIcon: {
+        minWidth: 'auto',
+        marginRight: theme.spacing(2),
+    },
+    divider: {
+        marginTop: theme.spacing(2),
+    },
+});
+
+const Navigator=(props)=> {
+    const { classes, state,...other } = props;
+    const [open, setOpen] = React.useState(false);
+    const handleClick = () => {
+        setOpen(!open);
+    };
+    return (
+        <Drawer variant="permanent" {...other}>
+            <List disablePadding>
+                <ListItem className={clsx(classes.firebase, classes.item, classes.itemCategory)}>
+                    Вместе
+                </ListItem>
+                <ListItem className={clsx(classes.item, classes.itemCategory)}>
+                    <ListItemIcon className={classes.itemIcon}>
+                        <HomeIcon />
+                    </ListItemIcon>
+                    <ListItemText
+                        classes={{
+                            primary: classes.itemPrimary,
+                        }}
+                    >
+                       Кабинет куратора
+                    </ListItemText>
+                </ListItem>
+                {categories.map(({ id, children }) => (
+                    <React.Fragment key={id}>
+                        <ListItem className={classes.categoryHeader}>
+                            <ListItemText
+                                classes={{
+                                    primary: classes.categoryHeaderPrimary,
+                                }}
+                            >
+                                {id}
+                            </ListItemText>
+                        </ListItem>
+                        {children.map(({ id: childId, icon, active ,path,childCategories}) => (
+                            childCategories.length>0 ?<List>
+                                <ListItem button onClick={handleClick}
+                                    key={childId}
+                                    className={clsx(classes.item, active && classes.itemActiveItem)}
+                                >
+
+                                    <ListItemIcon className={classes.itemIcon}>{icon}</ListItemIcon>
+                                    <ListItemText
+                                        classes={{
+                                            primary: classes.itemPrimary,
+                                        }}
+                                    >
+                                        {childId}
+                                    </ListItemText>
+                                    {open ? <ExpandLess /> : <ExpandMore />}
+                            </ListItem>
+                            <Collapse in={open} timeout="auto" unmountOnExit>
+                            <List component="div" disablePadding>
+                                {childCategories.map(directory=> <ListItem
+                                    key={directory.id}
+                                    component={NavLink}
+                                    to={`/curator/${path}`}
+                                    className={clsx(classes.item, active && classes.itemActiveItem)}
+                                >
+                                    <ListItemIcon className={classes.itemIcon}>{icon}</ListItemIcon>
+                                    <ListItemText
+                                        classes={{
+                                            primary: classes.itemPrimary,
+                                        }}
+                                    >
+                                        {directory.id}
+                                    </ListItemText>
+                                </ListItem>)}
+
+                            </List>
+                            </Collapse>
+                                </List>
+                                :
+                            <ListItem
+                                key={childId}
+                               component={NavLink}
+                                to={`/curator/${path}`}
+                                className={clsx(classes.item, active && classes.itemActiveItem)}
+                            >
+                                <ListItemIcon className={classes.itemIcon}>{icon}</ListItemIcon>
+                                <ListItemText
+                                    classes={{
+                                        primary: classes.itemPrimary,
+                                    }}
+                                >
+                                    {childId}
+                                </ListItemText>
+                            </ListItem>
+                        ))}
+
+                        <Divider className={classes.divider} />
+                    </React.Fragment>
+                ))}
+            </List>
+        </Drawer>
+    );
+}
+
+Navigator.propTypes = {
+    classes: PropTypes.object.isRequired,
+};
+
+export default withStyles(styles)(Navigator);

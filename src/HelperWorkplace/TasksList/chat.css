@@ -1,0 +1,8 @@
+.NameBlock {display: flex }
+.icon {
+    flex: 2%;
+}
+.nameSection {
+    flex: 90%;
+    color: #FE6B8B;
+}

@@ -1,0 +1,1 @@
+export const styles = { padding: "11px", margin: "0 2px", backgroundColor: "#d40cd1", color: "#fff" }

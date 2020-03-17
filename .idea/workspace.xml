@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b535998-f503-44f6-8c1f-970db0bb2397" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/MainUI/Paperbase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/MainUI/Paperbase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/NameSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/NameSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/SingleTaskContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/SingleTaskContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/TaskPlacesUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/TaskPlacesUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/TasksFlowDetailedUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/SingleTask/TasksFlowDetailedUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/TasksList/TasksContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/TasksList/TasksContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelperWorkplace/TasksList/TasksTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelperWorkplace/TasksList/TasksTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RestAPIHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RestAPIHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/UIComponents/Paperbase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/UIComponents/Paperbase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/UserTable/UserTableContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/UserTable/UserTableContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/HelperReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/HelperReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/workplaces/WorkplacesContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/workplaces/WorkplacesContainer.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HelperPage" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1UWO3sQDQXpqiFXDoedUpRZfixJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codepen" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Users\sg772\WebstormProjects\vmeste\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src\HelperWorkplace" />
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src" />
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src\KuratorWorkplace\ApplicationsList\SingleApplicationFromList" />
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src\KuratorWorkplace\ApplicationsList\SingleApplicationFromList\Attachments" />
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src\KuratorWorkplace" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\public" />
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src" />
+      <recent name="C:\Users\sg772\WebstormProjects\vmeste\src\HelperPage\MainUI" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="adds new task" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="adds new task" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="fetch for scroll works" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="fetch for scroll works" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.fetch for scroll works" />
+        <item itemvalue="Jest.adds new task" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b535998-f503-44f6-8c1f-970db0bb2397" name="Default Changelist" comment="" />
+      <created>1576477315752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576477315752</updated>
+      <workItem from="1576477322219" duration="28687000" />
+      <workItem from="1576563142244" duration="24872000" />
+      <workItem from="1576650418966" duration="22401000" />
+      <workItem from="1576735863249" duration="29043000" />
+      <workItem from="1576996078031" duration="25768000" />
+      <workItem from="1577027745314" duration="137000" />
+      <workItem from="1577081543078" duration="23131000" />
+      <workItem from="1577169138391" duration="24681000" />
+      <workItem from="1577254307446" duration="22067000" />
+      <workItem from="1577342394564" duration="21525000" />
+      <workItem from="1577601585774" duration="276000" />
+      <workItem from="1577604346972" duration="4666000" />
+      <workItem from="1577615896237" duration="14568000" />
+      <workItem from="1578897433167" duration="2582000" />
+      <workItem from="1578916882090" duration="5029000" />
+      <workItem from="1579069217072" duration="8564000" />
+      <workItem from="1579155313253" duration="15516000" />
+      <workItem from="1579415043878" duration="14273000" />
+      <workItem from="1579501034258" duration="25597000" />
+      <workItem from="1579589605623" duration="19509000" />
+      <workItem from="1579675428310" duration="21438000" />
+      <workItem from="1579761456108" duration="23934000" />
+      <workItem from="1580106611844" duration="10153000" />
+      <workItem from="1580192947516" duration="16179000" />
+      <workItem from="1580224017630" duration="71000" />
+      <workItem from="1580280068756" duration="7102000" />
+      <workItem from="1580303881929" duration="4758000" />
+      <workItem from="1580366705736" duration="18940000" />
+      <workItem from="1580625654576" duration="15679000" />
+      <workItem from="1580719059955" duration="3054000" />
+      <workItem from="1580797352901" duration="14820000" />
+      <workItem from="1580906275942" duration="5093000" />
+      <workItem from="1580970357502" duration="5454000" />
+      <workItem from="1581233621878" duration="1803000" />
+      <workItem from="1581317746108" duration="228000" />
+      <workItem from="1581342848421" duration="2405000" />
+      <workItem from="1581404098294" duration="16342000" />
+      <workItem from="1581490432512" duration="867000" />
+      <workItem from="1581504196338" duration="10000" />
+      <workItem from="1581508031971" duration="148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/HelperWorkplace/SingleTask/DatesSection.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
